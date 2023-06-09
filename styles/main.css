@@ -459,12 +459,13 @@ a:hover {
 	display: flex;
 	align-items: center;
 	/* justify-content: space-between; */
-	margin: 10px;
+	margin: 5px;
 }
 .catalog-favorite-button {
 	font-size: 10px;
 	margin: 5px;
 	width: 80px;
+	border-radius: 10px;
 }
 
 .catalog-favorite-button a,
@@ -494,7 +495,9 @@ a:hover {
 
 .catalog-delete-favorite-button {
 	margin: 5px;
-	width: 80px;
+	width: 90px;
+	font-size: 5px;
+	border-radius: 10px;
 }
 
 @media only screen and (max-width: 470px) {
@@ -597,5 +600,3 @@ a:hover {
 }
 
 /* END ITEM page */
-
-
